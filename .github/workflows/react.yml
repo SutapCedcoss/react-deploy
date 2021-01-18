@@ -5,11 +5,10 @@ name: react.js CI
 
 on:
   push:
-    branches: [ deploy ]
+    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     strategy:
